@@ -17,6 +17,7 @@ fn main() {
                 (2, 1 | 2) => e02::run(part),
                 (3, 1 | 2) => e03::run(part),
                 (4, 1 | 2) => e04::run(part),
+                (5, 1 | 2) => e05::run(part),
                 _ => println!("This exercise does not exist"),
             },
             _ => println!("Error parsing args"),
